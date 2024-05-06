@@ -1,4 +1,7 @@
 # thermal_zone_interfaces
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/NathanaelGandhi/thermal_zone_interfaces/main.svg)](https://results.pre-commit.ci/latest/github/NathanaelGandhi/thermal_zone_interfaces/main)
+[![Release Drafter](https://github.com/NathanaelGandhi/thermal_zone_interfaces/actions/workflows/release-drafter.yml/badge.svg?branch=release)](https://github.com/NathanaelGandhi/thermal_zone_interfaces/actions/workflows/release-drafter.yml)
+
 ROS2 interfaces for use with the [thermal zone](https://github.com/NathanaelGandhi/thermal_zone) package
 
 ## Implemented members in [ThermalZone.msg](msg/ThermalZone.msg)
