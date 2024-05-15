@@ -32,3 +32,6 @@ ROS2 interfaces for use with the [thermal zone](https://github.com/NathanaelGand
 - [x] type
 - [ ] uevent
 - [ ] trip_point_0_type
+
+## [ThermalZoneNodeHk.msg](msg/ThermalZoneNodeHk.msg)
+Housekeeping telemetry specific to the [ThermalZoneNode](https://github.com/NathanaelGandhi/thermal_zone/blob/main/include/thermal_zone/thermal_zone_node.hpp)
