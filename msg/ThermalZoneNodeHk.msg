@@ -1,0 +1,1 @@
+uint64 thermal_zone_publish_count
