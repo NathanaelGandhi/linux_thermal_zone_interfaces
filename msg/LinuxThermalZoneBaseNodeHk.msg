@@ -1,1 +1,1 @@
-uint64 thermal_zone_publish_count
+uint64 linux_thermal_zone_publish_count
