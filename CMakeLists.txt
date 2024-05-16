@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(thermal_zone_interfaces)
+project(linux_thermal_zone_interfaces)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
@@ -12,8 +12,8 @@ find_package(sensor_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/ThermalZone.msg"
-  "msg/ThermalZoneNodeHk.msg"
+  "msg/LinuxThermalZone.msg"
+  "msg/LinuxThermalZoneBaseNodeHk.msg"
   DEPENDENCIES sensor_msgs std_msgs
 )
 

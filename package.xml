@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>thermal_zone_interfaces</name>
+  <name>linux_thermal_zone_interfaces</name>
   <version>0.0.0</version>
-  <description>Interfaces for ROS2 Thermal Zone</description>
+  <description>ROS2 Interfaces for Linux Thermal Zone</description>
   <maintainer email="nat11public@gmail.com">Nathanael Gandhi</maintainer>
   <license>MIT</license>
 
