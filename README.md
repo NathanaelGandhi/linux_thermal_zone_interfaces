@@ -1,9 +1,9 @@
-# thermal_zone_interfaces
-[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/NathanaelGandhi/thermal_zone_interfaces/main.svg)](https://results.pre-commit.ci/latest/github/NathanaelGandhi/thermal_zone_interfaces/main)
-[![Release Drafter](https://github.com/NathanaelGandhi/thermal_zone_interfaces/actions/workflows/release-drafter.yml/badge.svg?branch=release)](https://github.com/NathanaelGandhi/thermal_zone_interfaces/actions/workflows/release-drafter.yml)
-[![Mirror release to humble](https://github.com/NathanaelGandhi/thermal_zone_interfaces/actions/workflows/mirror-release-to-humble.yaml/badge.svg?branch=release)](https://github.com/NathanaelGandhi/thermal_zone_interfaces/actions/workflows/mirror-release-to-humble.yaml)
+# linux_thermal_zone_interfaces
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/NathanaelGandhi/linux_thermal_zone_interfaces/main.svg)](https://results.pre-commit.ci/latest/github/NathanaelGandhi/linux_thermal_zone_interfaces/main)
+[![Release Drafter](https://github.com/NathanaelGandhi/linux_thermal_zone_interfaces/actions/workflows/release-drafter.yml/badge.svg?branch=release)](https://github.com/NathanaelGandhi/linux_thermal_zone_interfaces/actions/workflows/release-drafter.yml)
+[![Mirror release to humble](https://github.com/NathanaelGandhi/linux_thermal_zone_interfaces/actions/workflows/mirror-release-to-humble.yaml/badge.svg?branch=release)](https://github.com/NathanaelGandhi/linux_thermal_zone_interfaces/actions/workflows/mirror-release-to-humble.yaml)
 
-ROS2 interfaces for use with the [thermal zone](https://github.com/NathanaelGandhi/thermal_zone) package
+ROS2 interfaces for use with the [linux_thermal_zone](https://github.com/NathanaelGandhi/linux_thermal_zone) package
 
 ## Implemented members in [ThermalZone.msg](msg/ThermalZone.msg)
 - [ ] available_policies
@@ -34,4 +34,4 @@ ROS2 interfaces for use with the [thermal zone](https://github.com/NathanaelGand
 - [ ] trip_point_0_type
 
 ## [ThermalZoneNodeHk.msg](msg/ThermalZoneNodeHk.msg)
-Housekeeping telemetry specific to the [ThermalZoneNode](https://github.com/NathanaelGandhi/thermal_zone/blob/main/include/thermal_zone/thermal_zone_node.hpp)
+Housekeeping telemetry specific to the [ThermalZoneBaseNode](https://github.com/NathanaelGandhi/linux_thermal_zone_base/blob/main/include/linux_thermal_zone_base/linux_thermal_zone_base_node.hpp)
